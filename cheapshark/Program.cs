@@ -1,8 +1,16 @@
 ﻿try
 {
     using HttpClient client = new();
-    string? resposa = await client.GetStringAsync("https://www.cheapshark.com/api/1.0/deals");
-    Console.WriteLine(resposa);
+    var resposa = await client.GetAsync("https://www.cheapshark.com/api/1.0/deals");
+    
+    if (resposa.IsSuccessStatusCode)
+    {
+        Console.WriteLine(resposa);
+    }
+    else
+    {
+        Console.WriteLine("Erro");
+    }
 }
 catch (Exception ex)
 {
