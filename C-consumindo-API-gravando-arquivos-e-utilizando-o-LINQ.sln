@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cheapshark", "cheapshark\ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDesserializar", "DesafioDesserializar\DesafioDesserializar.csproj", "{917D5273-CF67-4C32-BF72-9355D46D8EA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfThronesAPI", "GameOfThronesAPI\GameOfThronesAPI.csproj", "{4BBB0785-5014-4F7D-9089-312F87191931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{917D5273-CF67-4C32-BF72-9355D46D8EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{917D5273-CF67-4C32-BF72-9355D46D8EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{917D5273-CF67-4C32-BF72-9355D46D8EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBB0785-5014-4F7D-9089-312F87191931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBB0785-5014-4F7D-9089-312F87191931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBB0785-5014-4F7D-9089-312F87191931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBB0785-5014-4F7D-9089-312F87191931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,9 +20,11 @@ try
     #endregion
 
     #region Livro
-    var resposa = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Livros.json");
-    var livros = JsonConvert.DeserializeObject<List<Livro>>(resposa);
+    /*var resposa = await client.GetStringAsync("https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Livros.json");
+    var livros = JsonConvert.DeserializeObject<List<Livro>>(resposa);*/
     #endregion
+
+
 }
 catch (Exception ex)
 {
